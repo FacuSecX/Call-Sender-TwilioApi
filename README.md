@@ -37,17 +37,13 @@ Las opciones disponibles son:
 Siempre despues de una llamada o SMS nos permite saber si el mensaje o la llamada llego al telefono o si fue atendido en caso de una llamada
 
 
-<p align="center">
-<img alt="call-twilioapibot" src="http://imgfz.com/i/urd7LlJ.png" title="call-twilioapibot">
-</p>
-<br>
-
-
 ## Instalación
 
 Subí los archivos del proyecto al VPS mediante SSH/SFTP y ejecutá el instalador desde la carpeta del proyecto:
 
 ```bash
+git clone https://github.com/FacuSecX/Call-Sender-TwilioApi
+cd Call-Sender-TwilioApi
 sudo bash instalar.sh
 ```
 
