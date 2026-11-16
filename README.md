@@ -1,6 +1,8 @@
 <h1 align="center">SMS & Call Sender Telegram Bot</h1>
 
 Bot de Telegram programable para enviar llamadas y SMS mediante la API de [Twilio](https://www.twilio.com/en-us).
+<br>
+<br>
 
 <p align="center">
 <img alt="sms-call-sender-bot" src="http://imgfz.com/i/cjNwakv.png" title="sms-call-sender-bo">
