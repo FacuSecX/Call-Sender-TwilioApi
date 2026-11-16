@@ -1,0 +1,110 @@
+# ==========================================
+# CallerSend-TwilioApi
+# https://github.com/FacuSecX/
+# ==========================================
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.env
+credentials*
+**/credentials*
+secrets*
+**/secrets*
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+*.pub
+
+# Runtime data, contacts, sessions, databases and exports
+data/
+state/
+runtime/
+sessions/
+session/
+cookies*
+*.session*
+*.sqlite*
+*.db
+*.db-*
+*.sql
+*.dump
+*.json
+*.jsonl
+*.csv
+*.tsv
+exports/
+reports/
+logs/
+*.log
+*.log.*
+*.pid
+*.sock
+*.lock
+
+# Backups, audio, recordings and other generated files
+backups/
+backup/
+cache/
+.cache/
+media/
+recordings/
+downloads/
+tmp/
+temp/
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.aac
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.old
+*.hc
+*.vc
+
+# Python environments and local tool files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# README intentionally excluded from this publication copy
+[Rr][Ee][Aa][Dd][Mm][Ee]*
+
+# Development fixtures are kept outside this publication copy
+tests/
+fixtures/
+examples/
+test_*.py
+*_test.py

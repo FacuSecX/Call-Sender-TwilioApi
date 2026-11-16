@@ -1,0 +1,12 @@
+# ==========================================
+# CallerSend-TwilioApi
+# https://github.com/FacuSecX/
+# ==========================================
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.txt text eol=lf
+*.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.bat text eol=crlf
